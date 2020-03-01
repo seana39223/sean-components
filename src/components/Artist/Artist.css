@@ -14,3 +14,10 @@
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
 }
+
+.Artist p {
+    position: absolute;
+    top: 205px;
+    left: 265px;
+    transform: translate(-50%, -50%);
+}
