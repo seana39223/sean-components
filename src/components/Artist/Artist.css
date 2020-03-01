@@ -1,0 +1,16 @@
+.Artist {
+    height: 350px;
+    width: 450px;
+    margin: 40px;
+    border: 5px dotted blue;
+}
+
+.Artist img {
+    max-width: 450px;
+    height: 350px;
+}
+
+.Artist img:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+}

@@ -1,9 +1,0 @@
-import React from 'react';
-
-function Artist() {
-    return (
-        <h1>Test</h1>
-    )
-}
-
-export default Artist;
