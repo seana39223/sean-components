@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import "./Login.css";
 
@@ -6,6 +6,7 @@ function Login(props) {
     return (
         <div className="Login">
             <form>
+                <h1>Login to Sean's Spotify Dashboard</h1>
                 <FormGroup controlId="email" bsSize="large">
                     <ControlLabel>Email</ControlLabel>
                     <FormControl
