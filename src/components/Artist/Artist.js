@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import './Artist.css';
 
 function Artist(props) {
-    const [text, setText] = useState('');
+    const [artistText, setArtistText] = useState('');
     return (
         <div class='Artist'>
             <img src={props.image}
-                 onMouseOver={() => setText(props.text)}
-                 onMouseLeave={() => setText('')}
+                 alt={props.artist}
+                 onMouseOver={() => setArtistText(props.artist)}
+                 onMouseLeave={() => setArtistText('')}
             ></img>
-            <p>{text}</p>
+            <p>{artistText}</p>
         </div>
     )
 }
